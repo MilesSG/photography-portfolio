@@ -1,0 +1,77 @@
+/* PhotoGallery.css */
+
+/* 整体布局样式 */
+.photo-gallery {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* 标题部分样式 */
+.header {
+    text-align: left; /* 设置标题和描述靠左对齐 */
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #222;
+}
+
+.header p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* 分割内容部分样式 */
+.section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+/* 照片墙布局 */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* 照片卡片样式 */
+.photo-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+}
+
+/* 悬停动画效果 */
+.photo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.photo-card:hover img {
+    transform: scale(1.05);
+}
