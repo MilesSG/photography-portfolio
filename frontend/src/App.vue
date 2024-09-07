@@ -1,19 +1,21 @@
 <template>
   <div id="app">
     <PhotoGallery />
+    <CommentSection /> <!-- 添加评论区组件 -->
   </div>
 </template>
 
 <script>
 import PhotoGallery from './components/PhotoGallery.vue';
+import CommentSection from './components/CommentSection.vue';
 
 export default {
   components: {
-    PhotoGallery
+    PhotoGallery,
+    CommentSection
   }
 };
 </script>
-
 
 <style>
 #app {
