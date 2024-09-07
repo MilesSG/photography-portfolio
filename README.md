@@ -1,74 +1,139 @@
-## 照片分享网站更新指南
+# 照片分享网站更新指南
 
-此文档帮助你记住如何在照片分享网站中添加新的照片，并确保这些照片能够自动显示在网站上。
+本指南将帮助你了解如何运行前端和后端项目，以及如何在照片分享网站中添加新照片，并确保这些照片能够自动显示在网站上。
 
-### 操作步骤
+## 目录
 
-1. **将新照片添加到相应文件夹中**
+1. [项目结构](#项目结构)
+2. [运行项目](#运行项目)
+   - [运行前端](#运行前端)
+   - [运行后端](#运行后端)
+3. [添加新照片](#添加新照片)
+4. [将更改部署到 GitHub Pages](#将更改部署到-github-pages)
 
-    - 把你要添加的照片放入项目的 `public/photos` 目录下的相应文件夹中，例如：
-        - `public/photos/chongqing` - 存放重庆的照片
-        - `public/photos/new-zealand` - 存放新西兰的照片
-        - `public/photos/singapore` - 存放新加坡的照片
+---
 
-   **注意：** 照片格式应为 `.jpg`、`.jpeg`、`.png` 或 `.svg`，以便脚本能够识别和加载这些文件。
+## 项目结构
 
-2. **运行脚本更新照片列表**
+\```
+photography-portfolio/
+│
+├── backend/               # 后端代码目录 (Node.js + Express)
+│   ├── routes/            # 后端路由
+│   ├── package.json       # 后端依赖项和脚本
+│   └── server.js          # 后端服务器入口文件
+│
+├── frontend/              # 前端代码目录 (Vue.js)
+│   ├── public/            # 公共静态文件目录
+│   ├── src/               # 源代码目录
+│   ├── package.json       # 前端依赖项和脚本
+│   └── vue.config.js      # Vue.js 配置文件
+│
+└── README.md              # 项目说明文件
+\```
 
-    - 在终端或命令行工具中，运行以下命令生成或更新照片列表 JSON 文件：
+## 运行项目
 
-   ```bash
-   node generatePhotosJson.js
-   ```
+### 运行前端
 
-   该脚本将自动扫描 `public/photos` 目录下的所有文件夹和照片，并生成或更新 `public/photos/photos.json` 文件，包含所有照片的路径。
+1. 进入前端项目目录：
 
-3. **在本地进行调试**
+   \```bash
+   cd frontend
+   \```
 
-    - 运行以下命令启动本地开发服务器，确保新添加的照片能正确显示：
+2. 安装依赖项：
 
-   ```bash
+   \```bash
+   npm install
+   \```
+
+3. 启动开发服务器：
+
+   \```bash
    npm run serve
-   ```
+   \```
 
-    - 打开浏览器并访问 `http://localhost:8080`，查看照片是否显示正确。
+4. 在浏览器中访问 `http://localhost:8080`，查看前端项目是否成功运行。
 
-4. **将更新部署到 GitHub Pages**
+### 运行后端
 
-    - 确保所有更改已提交到 Git 仓库：
+1. 进入后端项目目录：
 
-   ```bash
+   \```bash
+   cd backend
+   \```
+
+2. 安装依赖项：
+
+   \```bash
+   npm install
+   \```
+
+3. 启动后端服务器：
+
+   \```bash
+   node server.js
+   \```
+
+4. 后端服务器将运行在 `http://localhost:3000`，可以在终端查看是否启动成功。
+
+## 添加新照片
+
+1. 将新照片添加到相应的相册文件夹中：
+
+   - 如果你想添加照片到某个相册，请将照片放置在 `frontend/public/photos` 目录下的相应文件夹中。例如：
+      - `public/photos/chongqing` - 存放重庆的照片
+      - `public/photos/new-zealand` - 存放新西兰的照片
+      - `public/photos/singapore` - 存放新加坡的照片
+
+   确保照片格式为 `.jpg`、`.jpeg`、`.png` 或 `.svg`，以便系统能够识别和加载这些文件。
+
+2. 更新照片列表 JSON 文件：
+
+   进入前端项目目录并运行以下命令来生成或更新照片列表 JSON 文件：
+
+   \```bash
+   cd frontend
+   node generatePhotosJson.js
+   \```
+
+   该脚本会自动扫描 `public/photos` 目录下的所有文件夹和照片，并生成或更新 `public/photos/photos.json` 文件，包含所有照片的路径。
+
+3. 在本地进行调试：
+
+   运行以下命令启动本地开发服务器，确保新添加的照片能正确显示：
+
+   \```bash
+   npm run serve
+   \```
+
+   打开浏览器并访问 `http://localhost:8080`，查看照片是否显示正确。
+
+## 将更改部署到 GitHub Pages
+
+1. 确保所有更改已提交到 Git 仓库：
+
+   \```bash
    git add .
    git commit -m "Add new photos and update JSON"
-   ```
+   \```
 
-    - 构建生产环境：
+2. 构建生产环境文件：
 
-   ```bash
+   \```bash
    npm run build
-   ```
+   \```
 
-    - 将打包好的文件推送到 `gh-pages` 分支：
+3. 将构建好的文件推送到 `gh-pages` 分支：
 
-   ```bash
-   git subtree push --prefix dist origin gh-pages
-   ```
+   \```bash
+   git subtree push --prefix frontend/dist origin gh-pages
+   \```
 
-   **注意：** 如果没有设置 `gh-pages` 分支，请参考你的 GitHub Pages 设置来确保正确部署。
+   > 注意：如果没有设置 `gh-pages` 分支，请参考你的 GitHub Pages 设置来确保正确配置。
 
-### 文件说明
+## 注意事项
 
-- **`public/photos` 文件夹**：存储所有照片的文件夹，子文件夹按地理位置（如 `chongqing`、`new-zealand` 等）分类。
-- **`generatePhotosJson.js`**：Node.js 脚本，用于自动生成或更新 `photos.json` 文件，列出所有照片的路径。
-- **`public/photos/photos.json`**：自动生成的 JSON 文件，包含所有照片的路径，用于 Vue 组件动态加载。
-
-### 注意事项
-
-- 每次添加新照片后，都需要运行 `node generatePhotosJson.js` 生成新的 `photos.json` 文件。
-- 确保在每次更改后，重新启动本地开发服务器来调试和预览更改。
-- 在将更新部署到 GitHub Pages 之前，记得构建项目并将 `dist` 文件夹内容推送到 `gh-pages` 分支。
-
-### 总结
-
-只需添加新照片到正确的文件夹，运行生成 JSON 文件的脚本，然后本地调试和部署更新，便能确保你的网站始终展示最新的内容！
-
+- 确保你在对项目进行更改前，先拉取最新的代码，防止冲突。
+- 照片文件名不要包含特殊字符或空格，避免加载问题。
