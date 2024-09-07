@@ -94,7 +94,7 @@
 
 3. 将构建好的文件推送到 `gh-pages` 分支：
 
-    ```bash
+    ```bash 
     git subtree push --prefix frontend/dist origin gh-pages
     ```
 
