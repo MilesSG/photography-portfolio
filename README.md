@@ -1,36 +1,3 @@
-# 照片分享网站更新指南
-
-本指南将帮助你了解如何运行前端和后端项目，以及如何在照片分享网站中添加新照片，并确保这些照片能够自动显示在网站上。
-
-## 目录
-
-1. [项目结构](#项目结构)
-2. [运行项目](#运行项目)
-   - [运行前端](#运行前端)
-   - [运行后端](#运行后端)
-3. [添加新照片](#添加新照片)
-4. [将更改部署到 GitHub Pages](#将更改部署到-github-pages)
-
----
-
-## 项目结构
-
-\```
-photography-portfolio/
-│
-├── backend/               # 后端代码目录 (Node.js + Express)
-│   ├── routes/            # 后端路由
-│   ├── package.json       # 后端依赖项和脚本
-│   └── server.js          # 后端服务器入口文件
-│
-├── frontend/              # 前端代码目录 (Vue.js)
-│   ├── public/            # 公共静态文件目录
-│   ├── src/               # 源代码目录
-│   ├── package.json       # 前端依赖项和脚本
-│   └── vue.config.js      # Vue.js 配置文件
-│
-└── README.md              # 项目说明文件
-\```
 
 ## 运行项目
 
@@ -38,21 +5,21 @@ photography-portfolio/
 
 1. 进入前端项目目录：
 
-   \```bash
-   cd frontend
-   \```
+    ```bash
+    cd frontend
+    ```
 
 2. 安装依赖项：
 
-   \```bash
-   npm install
-   \```
+    ```bash
+    npm install
+    ```
 
 3. 启动开发服务器：
 
-   \```bash
-   npm run serve
-   \```
+    ```bash
+    npm run serve
+    ```
 
 4. 在浏览器中访问 `http://localhost:8080`，查看前端项目是否成功运行。
 
@@ -60,21 +27,21 @@ photography-portfolio/
 
 1. 进入后端项目目录：
 
-   \```bash
-   cd backend
-   \```
+    ```bash
+    cd backend
+    ```
 
 2. 安装依赖项：
 
-   \```bash
-   npm install
-   \```
+    ```bash
+    npm install
+    ```
 
 3. 启动后端服务器：
 
-   \```bash
-   node server.js
-   \```
+    ```bash
+    node server.js
+    ```
 
 4. 后端服务器将运行在 `http://localhost:3000`，可以在终端查看是否启动成功。
 
@@ -93,10 +60,10 @@ photography-portfolio/
 
    进入前端项目目录并运行以下命令来生成或更新照片列表 JSON 文件：
 
-   \```bash
-   cd frontend
-   node generatePhotosJson.js
-   \```
+    ```bash
+    cd frontend
+    node generatePhotosJson.js
+    ```
 
    该脚本会自动扫描 `public/photos` 目录下的所有文件夹和照片，并生成或更新 `public/photos/photos.json` 文件，包含所有照片的路径。
 
@@ -104,9 +71,9 @@ photography-portfolio/
 
    运行以下命令启动本地开发服务器，确保新添加的照片能正确显示：
 
-   \```bash
-   npm run serve
-   \```
+    ```bash
+    npm run serve
+    ```
 
    打开浏览器并访问 `http://localhost:8080`，查看照片是否显示正确。
 
@@ -114,22 +81,22 @@ photography-portfolio/
 
 1. 确保所有更改已提交到 Git 仓库：
 
-   \```bash
-   git add .
-   git commit -m "Add new photos and update JSON"
-   \```
+    ```bash
+    git add .
+    git commit -m "Add new photos and update JSON"
+    ```
 
 2. 构建生产环境文件：
 
-   \```bash
-   npm run build
-   \```
+    ```bash
+    npm run build
+    ```
 
 3. 将构建好的文件推送到 `gh-pages` 分支：
 
-   \```bash
-   git subtree push --prefix frontend/dist origin gh-pages
-   \```
+    ```bash
+    git subtree push --prefix frontend/dist origin gh-pages
+    ```
 
    > 注意：如果没有设置 `gh-pages` 分支，请参考你的 GitHub Pages 设置来确保正确配置。
 
