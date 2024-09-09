@@ -1,10 +1,10 @@
 <template>
   <div class="comment-section">
-    <h2>评论区</h2>
+    <h2>留言板</h2>
     <form @submit.prevent="submitComment" class="comment-form">
       <input v-model="name" placeholder="你的名字" class="input" required />
-      <textarea v-model="comment" placeholder="你的评论" class="textarea" required></textarea>
-      <button type="submit" class="button">提交评论</button>
+      <textarea v-model="comment" placeholder="你的留言" class="textarea" required></textarea>
+      <button type="submit" class="button">提交留言</button>
     </form>
 
 

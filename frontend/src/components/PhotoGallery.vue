@@ -272,13 +272,14 @@ export default {
 }
 
 .timeline-label {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   color: #333;
 }
 
 .timeline-date {
-  font-size: 16px;
+  font-size: 22px;
+  font-weight: bold;
   color: #666;
   margin-bottom: 10px;
 }
