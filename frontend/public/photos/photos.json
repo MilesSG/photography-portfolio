@@ -1,34 +1,432 @@
 {
   "chongqing": [
-    "photo1.jpg",
-    "photo2.jpg"
+    {
+      "original": "photos/chongqing/018de1676b240ed0248b95cb08607cc.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/018de1676b240ed0248b95cb08607cc.jpg"
+    },
+    {
+      "original": "photos/chongqing/03e6414f720f360356c3ec6c07824f9.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/03e6414f720f360356c3ec6c07824f9.jpg"
+    },
+    {
+      "original": "photos/chongqing/1b8223ca3a00bddd8f439afe30235fe.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/1b8223ca3a00bddd8f439afe30235fe.jpg"
+    },
+    {
+      "original": "photos/chongqing/1cb36fe004c588246fb001929b72d99.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/1cb36fe004c588246fb001929b72d99.jpg"
+    },
+    {
+      "original": "photos/chongqing/1effa664f32f8a30bd768f4d1f07c5a.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/1effa664f32f8a30bd768f4d1f07c5a.jpg"
+    },
+    {
+      "original": "photos/chongqing/29da46d5e70edfd49416964630c3cf8.png",
+      "thumbnail": "photos/chongqing/thumbnails/29da46d5e70edfd49416964630c3cf8.png"
+    },
+    {
+      "original": "photos/chongqing/2b445da4ca53128d5c0637e4b9d5eab.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/2b445da4ca53128d5c0637e4b9d5eab.jpg"
+    },
+    {
+      "original": "photos/chongqing/483a7472be8b2c858f1d15b23b29015.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/483a7472be8b2c858f1d15b23b29015.jpg"
+    },
+    {
+      "original": "photos/chongqing/56ddadfd3a348b340479924d53b697b.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/56ddadfd3a348b340479924d53b697b.jpg"
+    },
+    {
+      "original": "photos/chongqing/5dbd43d9606737627efef0425f802ef.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/5dbd43d9606737627efef0425f802ef.jpg"
+    },
+    {
+      "original": "photos/chongqing/6c327056600c2cf27bcf82c9b34b277.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/6c327056600c2cf27bcf82c9b34b277.jpg"
+    },
+    {
+      "original": "photos/chongqing/b3b9d7249a00b9d5b06f1fed5504b6b.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/b3b9d7249a00b9d5b06f1fed5504b6b.jpg"
+    },
+    {
+      "original": "photos/chongqing/d466501c0297c85ad2e7ed714f88570.jpg",
+      "thumbnail": "photos/chongqing/thumbnails/d466501c0297c85ad2e7ed714f88570.jpg"
+    },
+    {
+      "original": "photos/chongqing/IMG_6503.JPG",
+      "thumbnail": "photos/chongqing/thumbnails/IMG_6503.JPG"
+    },
+    {
+      "original": "photos/chongqing/IMG_6525.JPG",
+      "thumbnail": "photos/chongqing/thumbnails/IMG_6525.JPG"
+    },
+    {
+      "original": "photos/chongqing/IMG_6583.JPG",
+      "thumbnail": "photos/chongqing/thumbnails/IMG_6583.JPG"
+    },
+    {
+      "original": "photos/chongqing/IMG_6614.JPG",
+      "thumbnail": "photos/chongqing/thumbnails/IMG_6614.JPG"
+    },
+    {
+      "original": "photos/chongqing/IMG_6675.JPG",
+      "thumbnail": "photos/chongqing/thumbnails/IMG_6675.JPG"
+    },
+    {
+      "original": "photos/chongqing/IMG_6690.JPG",
+      "thumbnail": "photos/chongqing/thumbnails/IMG_6690.JPG"
+    },
+    {
+      "original": "photos/chongqing/IMG_6701.JPG",
+      "thumbnail": "photos/chongqing/thumbnails/IMG_6701.JPG"
+    },
+    {
+      "original": "photos/chongqing/IMG_6715.JPG",
+      "thumbnail": "photos/chongqing/thumbnails/IMG_6715.JPG"
+    },
+    {
+      "original": "photos/chongqing/IMG_6738.JPG",
+      "thumbnail": "photos/chongqing/thumbnails/IMG_6738.JPG"
+    },
+    {
+      "original": "photos/chongqing/IMG_6741.JPG",
+      "thumbnail": "photos/chongqing/thumbnails/IMG_6741.JPG"
+    }
+  ],
+  "HK Airport": [
+    {
+      "original": "photos/HK Airport/094529c46eaa06e832038d5f41edb33.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/094529c46eaa06e832038d5f41edb33.jpg"
+    },
+    {
+      "original": "photos/HK Airport/0e03f135d75e08f17035c3b8162a264.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/0e03f135d75e08f17035c3b8162a264.jpg"
+    },
+    {
+      "original": "photos/HK Airport/141471087d6e6465e1ba93d0d6fe040.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/141471087d6e6465e1ba93d0d6fe040.jpg"
+    },
+    {
+      "original": "photos/HK Airport/241375a9481a8faad255408aed5552a.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/241375a9481a8faad255408aed5552a.jpg"
+    },
+    {
+      "original": "photos/HK Airport/29937779742dad7e9934ead8a1439aa.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/29937779742dad7e9934ead8a1439aa.jpg"
+    },
+    {
+      "original": "photos/HK Airport/3ca6dc5f65e6ce03ad60d82d8c31c93.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/3ca6dc5f65e6ce03ad60d82d8c31c93.jpg"
+    },
+    {
+      "original": "photos/HK Airport/44bc13387087633465473b53e1d1e34.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/44bc13387087633465473b53e1d1e34.jpg"
+    },
+    {
+      "original": "photos/HK Airport/67fb3e43aa19d47f4a309713c8aeeb1.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/67fb3e43aa19d47f4a309713c8aeeb1.jpg"
+    },
+    {
+      "original": "photos/HK Airport/8cf273da1649e55283c20ae0c984bf4.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/8cf273da1649e55283c20ae0c984bf4.jpg"
+    },
+    {
+      "original": "photos/HK Airport/b37e1f0001787aade13c6d3f75cf34b.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/b37e1f0001787aade13c6d3f75cf34b.jpg"
+    },
+    {
+      "original": "photos/HK Airport/b3a5dcf92721352b28c5a6fa77cd93a.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/b3a5dcf92721352b28c5a6fa77cd93a.jpg"
+    },
+    {
+      "original": "photos/HK Airport/d71ccd4ffe3fd152323c29ecf883be9.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/d71ccd4ffe3fd152323c29ecf883be9.jpg"
+    },
+    {
+      "original": "photos/HK Airport/d7c264bd209e5092f838ae34cc9b64d.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/d7c264bd209e5092f838ae34cc9b64d.jpg"
+    },
+    {
+      "original": "photos/HK Airport/e2230502447c8ce142b2cf021a3ebf9.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/e2230502447c8ce142b2cf021a3ebf9.jpg"
+    },
+    {
+      "original": "photos/HK Airport/fd231222a1e19def09852423406415b.jpg",
+      "thumbnail": "photos/HK Airport/thumbnails/fd231222a1e19def09852423406415b.jpg"
+    }
   ],
   "new-zealand": [
-    "photo1.jpg",
-    "photo2.jpg"
+    {
+      "original": "photos/new-zealand/04c9c454f0a1a801ab976b8ba49e7dc.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/04c9c454f0a1a801ab976b8ba49e7dc.jpg"
+    },
+    {
+      "original": "photos/new-zealand/055b78523dbfaf57494a054e8218caa.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/055b78523dbfaf57494a054e8218caa.jpg"
+    },
+    {
+      "original": "photos/new-zealand/05ba239cb5b98cae91323c15a901b7e.png",
+      "thumbnail": "photos/new-zealand/thumbnails/05ba239cb5b98cae91323c15a901b7e.png"
+    },
+    {
+      "original": "photos/new-zealand/1376d5700b48f28b6f4c52abb8fbb50.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/1376d5700b48f28b6f4c52abb8fbb50.jpg"
+    },
+    {
+      "original": "photos/new-zealand/16df91e21e3a7d1a8aff4eda0455960.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/16df91e21e3a7d1a8aff4eda0455960.jpg"
+    },
+    {
+      "original": "photos/new-zealand/175af1f96fba8db45bf315e81767046.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/175af1f96fba8db45bf315e81767046.jpg"
+    },
+    {
+      "original": "photos/new-zealand/237e8e361c42e6f335c86e0079cc16c.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/237e8e361c42e6f335c86e0079cc16c.jpg"
+    },
+    {
+      "original": "photos/new-zealand/244594838352c1ad2e951e2131b3c45.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/244594838352c1ad2e951e2131b3c45.jpg"
+    },
+    {
+      "original": "photos/new-zealand/2ae4674a1f94da8546fb0b20ab1466d.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/2ae4674a1f94da8546fb0b20ab1466d.jpg"
+    },
+    {
+      "original": "photos/new-zealand/2bf60d86c9d4519345f543ebeffe1fc.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/2bf60d86c9d4519345f543ebeffe1fc.jpg"
+    },
+    {
+      "original": "photos/new-zealand/35f0f7a74a70d9b65525add270f05ca.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/35f0f7a74a70d9b65525add270f05ca.jpg"
+    },
+    {
+      "original": "photos/new-zealand/4205f8551163cc42a66f1971012a70e.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/4205f8551163cc42a66f1971012a70e.jpg"
+    },
+    {
+      "original": "photos/new-zealand/477cec43083d848dce23cfcedb89a10.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/477cec43083d848dce23cfcedb89a10.jpg"
+    },
+    {
+      "original": "photos/new-zealand/50882b40da01fd602ecd20b6f452458.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/50882b40da01fd602ecd20b6f452458.jpg"
+    },
+    {
+      "original": "photos/new-zealand/62cb7d48431e27487c47fa85c1a9aac.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/62cb7d48431e27487c47fa85c1a9aac.jpg"
+    },
+    {
+      "original": "photos/new-zealand/77c1a7214c17fdf897935e422ad32b6.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/77c1a7214c17fdf897935e422ad32b6.jpg"
+    },
+    {
+      "original": "photos/new-zealand/7aceb62ccc9d177ef6374e5173e8d0a.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/7aceb62ccc9d177ef6374e5173e8d0a.jpg"
+    },
+    {
+      "original": "photos/new-zealand/7ad8ccc6d72606688f6ed916aeaf526.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/7ad8ccc6d72606688f6ed916aeaf526.jpg"
+    },
+    {
+      "original": "photos/new-zealand/7ddc5eb3653f7b0c5f73b933596f8e5.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/7ddc5eb3653f7b0c5f73b933596f8e5.jpg"
+    },
+    {
+      "original": "photos/new-zealand/824f46ba9b6e3937a38f10e41b0a973.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/824f46ba9b6e3937a38f10e41b0a973.jpg"
+    },
+    {
+      "original": "photos/new-zealand/827be34de91384931ce9f55f965738b.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/827be34de91384931ce9f55f965738b.jpg"
+    },
+    {
+      "original": "photos/new-zealand/9a287bcc84cf8fe898e68d2f20ce03c.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/9a287bcc84cf8fe898e68d2f20ce03c.jpg"
+    },
+    {
+      "original": "photos/new-zealand/9f1bfc057aea1e270eac29e4ac2ffcb.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/9f1bfc057aea1e270eac29e4ac2ffcb.jpg"
+    },
+    {
+      "original": "photos/new-zealand/b21dd0848f853851da5f5d663c7d1fa.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/b21dd0848f853851da5f5d663c7d1fa.jpg"
+    },
+    {
+      "original": "photos/new-zealand/be29fa89c9d051f97245dafc4d4e682.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/be29fa89c9d051f97245dafc4d4e682.jpg"
+    },
+    {
+      "original": "photos/new-zealand/c163afc75ddfcd243edef889e2b47ab.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/c163afc75ddfcd243edef889e2b47ab.jpg"
+    },
+    {
+      "original": "photos/new-zealand/cb9e91c886d9d9694c08fd64426af2e.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/cb9e91c886d9d9694c08fd64426af2e.jpg"
+    },
+    {
+      "original": "photos/new-zealand/d2748c232e4dbd4245519bdc917cded.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/d2748c232e4dbd4245519bdc917cded.jpg"
+    },
+    {
+      "original": "photos/new-zealand/de13a28b103c20e96706f0be46ecbd9.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/de13a28b103c20e96706f0be46ecbd9.jpg"
+    },
+    {
+      "original": "photos/new-zealand/e571f3b62687aa85cf95820adfa9eab.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/e571f3b62687aa85cf95820adfa9eab.jpg"
+    },
+    {
+      "original": "photos/new-zealand/e8be780c977181530bd0fffd606eecd.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/e8be780c977181530bd0fffd606eecd.jpg"
+    },
+    {
+      "original": "photos/new-zealand/ea55db12eaab3cf88fea221ee253adc.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/ea55db12eaab3cf88fea221ee253adc.jpg"
+    },
+    {
+      "original": "photos/new-zealand/eb543a03dd11297bf9335028f1c0f10.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/eb543a03dd11297bf9335028f1c0f10.jpg"
+    },
+    {
+      "original": "photos/new-zealand/f4bc806dcaa2cf43e941e2b354c48a6.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/f4bc806dcaa2cf43e941e2b354c48a6.jpg"
+    },
+    {
+      "original": "photos/new-zealand/f6dc7478e0ed100adc3218d90fe8006.jpg",
+      "thumbnail": "photos/new-zealand/thumbnails/f6dc7478e0ed100adc3218d90fe8006.jpg"
+    }
   ],
   "singapore": [
-    "IMG_20190707_202648.jpg",
-    "IMG_20190707_202848.jpg",
-    "IMG_20190707_202946.jpg",
-    "IMG_20190708_115057.jpg",
-    "IMG_20190708_125526.jpg",
-    "IMG_20190709_082855.jpg",
-    "IMG_20190709_163221.jpg",
-    "IMG_20190710_101833.jpg",
-    "IMG_20190710_150601.jpg",
-    "IMG_20190710_191504.jpg",
-    "IMG_20190712_171247.jpg",
-    "IMG_20190712_173412.jpg",
-    "IMG_20190712_173953.jpg",
-    "IMG_20190714_190859.jpg",
-    "IMG_20190715_140553.jpg",
-    "IMG_20190715_140901.jpg",
-    "IMG_20190716_210819.jpg",
-    "IMG_20190719_094955.jpg",
-    "IMG_20190719_192523.jpg",
-    "IMG_20190720_082847.jpg",
-    "photo1.jpg",
-    "photo2.jpg"
+    {
+      "original": "photos/singapore/IMG_20190707_202648.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190707_202648.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190707_202848.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190707_202848.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190707_202946.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190707_202946.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190708_115057.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190708_115057.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190708_125526.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190708_125526.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190709_082855.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190709_082855.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190709_163221.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190709_163221.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190710_101833.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190710_101833.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190710_150601.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190710_150601.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190710_191504.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190710_191504.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190712_171247.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190712_171247.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190712_173412.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190712_173412.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190712_173953.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190712_173953.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190714_190859.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190714_190859.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190715_140553.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190715_140553.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190715_140901.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190715_140901.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190716_210819.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190716_210819.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190719_094955.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190719_094955.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190719_192523.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190719_192523.jpg"
+    },
+    {
+      "original": "photos/singapore/IMG_20190720_082847.jpg",
+      "thumbnail": "photos/singapore/thumbnails/IMG_20190720_082847.jpg"
+    },
+    {
+      "original": "photos/singapore/photo1.jpg",
+      "thumbnail": "photos/singapore/thumbnails/photo1.jpg"
+    },
+    {
+      "original": "photos/singapore/photo2.jpg",
+      "thumbnail": "photos/singapore/thumbnails/photo2.jpg"
+    }
+  ],
+  "xiamen": [
+    {
+      "original": "photos/xiamen/0c69cb1fe4b1b59af6386c677b11220.jpg",
+      "thumbnail": "photos/xiamen/thumbnails/0c69cb1fe4b1b59af6386c677b11220.jpg"
+    },
+    {
+      "original": "photos/xiamen/0ecb44c6fe954d1b575d5c0334c2bf4.jpg",
+      "thumbnail": "photos/xiamen/thumbnails/0ecb44c6fe954d1b575d5c0334c2bf4.jpg"
+    },
+    {
+      "original": "photos/xiamen/713b542335f5842f38faf8ce986afeb.jpg",
+      "thumbnail": "photos/xiamen/thumbnails/713b542335f5842f38faf8ce986afeb.jpg"
+    },
+    {
+      "original": "photos/xiamen/864893edbcdcc41ea47b99c6f4a2e7c.jpg",
+      "thumbnail": "photos/xiamen/thumbnails/864893edbcdcc41ea47b99c6f4a2e7c.jpg"
+    },
+    {
+      "original": "photos/xiamen/89ea2148cd5bad6cad6aad6a9c045c8.jpg",
+      "thumbnail": "photos/xiamen/thumbnails/89ea2148cd5bad6cad6aad6a9c045c8.jpg"
+    },
+    {
+      "original": "photos/xiamen/9373126d3984ec82e22682595d5add8.jpg",
+      "thumbnail": "photos/xiamen/thumbnails/9373126d3984ec82e22682595d5add8.jpg"
+    },
+    {
+      "original": "photos/xiamen/b2da3e6ac478a0c7d5fd170f4f59256.jpg",
+      "thumbnail": "photos/xiamen/thumbnails/b2da3e6ac478a0c7d5fd170f4f59256.jpg"
+    },
+    {
+      "original": "photos/xiamen/cf21c00baca9b5d1f8fc0e6bf9a8bbe.jpg",
+      "thumbnail": "photos/xiamen/thumbnails/cf21c00baca9b5d1f8fc0e6bf9a8bbe.jpg"
+    },
+    {
+      "original": "photos/xiamen/f73234097512402d260bc45ea9a2f52.jpg",
+      "thumbnail": "photos/xiamen/thumbnails/f73234097512402d260bc45ea9a2f52.jpg"
+    },
+    {
+      "original": "photos/xiamen/f9b8366d274731e5bc3891792a4937b.jpg",
+      "thumbnail": "photos/xiamen/thumbnails/f9b8366d274731e5bc3891792a4937b.jpg"
+    }
   ]
 }
