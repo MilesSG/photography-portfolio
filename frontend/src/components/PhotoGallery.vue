@@ -12,25 +12,25 @@
     <el-dialog
         title="上传新照片"
         v-model="isUploadModalVisible"
-        width="40%"
+        width="30%"
         @close="resetUploadForm"
-        class="upload-dialog"
+        class="upload-dialog animate__animated animate__fadeIn"
     >
       <div class="upload-form">
         <div class="form-item">
-          <label class="form-label">选择文件：</label>
+          <label class="form-label"><i class="fas fa-file-upload"></i> 选择文件：</label>
           <input type="file" @change="handleFileChange" class="form-input-file" />
         </div>
         <div class="form-item">
-          <label class="form-label">照片标题：</label>
+          <label class="form-label"><i class="fas fa-heading"></i> 照片标题：</label>
           <el-input v-model="uploadForm.title" placeholder="请输入照片标题" class="form-input"></el-input>
         </div>
         <div class="form-item">
-          <label class="form-label">照片地点：</label>
+          <label class="form-label"><i class="fas fa-map-marker-alt"></i> 照片地点：</label>
           <el-input v-model="uploadForm.location" placeholder="请输入照片地点" class="form-input"></el-input>
         </div>
         <div class="form-item">
-          <label class="form-label">照片日期：</label>
+          <label class="form-label"><i class="fas fa-calendar-alt"></i> 照片日期：</label>
           <el-date-picker
               v-model="uploadForm.date"
               type="date"
@@ -39,7 +39,7 @@
           ></el-date-picker>
         </div>
         <div class="form-item">
-          <label class="form-label">照片描述：</label>
+          <label class="form-label"><i class="fas fa-pencil-alt"></i> 照片描述：</label>
           <el-input
               type="textarea"
               v-model="uploadForm.description"
@@ -50,11 +50,12 @@
       </div>
       <template #footer>
         <div class="dialog-footer">
-          <el-button @click="isUploadModalVisible = false" class="cancel-button">取消</el-button>
-          <el-button type="primary" @click="uploadPhoto" class="upload-button">上传</el-button>
+          <el-button @click="isUploadModalVisible = false" class="cancel-button"><i class="fas fa-times"></i> 取消</el-button>
+          <el-button type="primary" @click="uploadPhoto" class="upload-button"><i class="fas fa-upload"></i> 上传</el-button>
         </div>
       </template>
     </el-dialog>
+
 
     <!-- 时间轴 -->
     <div class="timeline-container">
@@ -331,60 +332,79 @@ export default {
 /* 添加新的模态框样式 */
 .upload-dialog {
   padding: 20px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  max-width: 500px; /* 控制模态框的最大宽度 */
+  width: 90%;
+  margin: 0 auto; /* 居中显示 */
 }
 
 .upload-form {
   display: flex;
   flex-direction: column;
+  align-items: stretch; /* 使表单元素填满整个宽度 */
   gap: 15px;
+  width: 100%;
 }
 
 .form-item {
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* 调整为行方向 */
+  align-items: center; /* 使标签和输入框垂直居中 */
+  gap: 10px;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .form-label {
   font-weight: bold;
-  margin-bottom: 5px;
+  color: #666;
+  width: 20%; /* 调整标签的宽度 */
+  text-align: right; /* 标签右对齐 */
 }
 
 .form-input,
 .form-input-file {
-  width: 100%;
+  flex: 1; /* 输入框占用剩余空间 */
   padding: 8px;
   border: 1px solid #dcdcdc;
-  border-radius: 4px;
+  border-radius: 6px;
+  font-size: 14px;
   margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 .dialog-footer {
   display: flex;
-  justify-content: flex-end;
-  gap: 10px;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
 }
 
-.upload-button {
+.upload-button,
+.cancel-button {
+  min-width: 100px;
   background-color: #409eff;
   color: white;
   border: none;
-  padding: 10px 15px;
-  border-radius: 4px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+  background-color: #66b1ff;
 }
 
 .cancel-button {
   background-color: #f56c6c;
   color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
-.upload-button:hover,
 .cancel-button:hover {
-  opacity: 0.9;
+  background-color: #ff7b7b;
 }
 </style>
