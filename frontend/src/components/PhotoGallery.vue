@@ -22,6 +22,10 @@
           <input type="file" @change="handleFileChange" class="form-input-file" />
         </div>
         <div class="form-item">
+          <label class="form-label">照片标题：</label>
+          <el-input v-model="uploadForm.title" placeholder="请输入照片标题" class="form-input"></el-input>
+        </div>
+        <div class="form-item">
           <label class="form-label">照片地点：</label>
           <el-input v-model="uploadForm.location" placeholder="请输入照片地点" class="form-input"></el-input>
         </div>
@@ -158,6 +162,7 @@ export default {
       formData.append('location', this.uploadForm.location);
       formData.append('date', this.uploadForm.date);
       formData.append('description', this.uploadForm.description);
+      formData.append('title', this.uploadForm.title); // 新增的标题字段
 
       try {
         const response = await fetch('http://localhost:3000/api/upload', { // 替换为你的后端 API URL
@@ -175,6 +180,7 @@ export default {
         alert('上传照片失败，请重试。');
       }
     },
+
     async loadPhotos() {
       try {
         const response = await fetch('http://localhost:3000/api/getPhotos'); // 获取照片数据
@@ -192,7 +198,7 @@ export default {
     },
     openModal(photo, index, location) {
       this.selectedImage = photo.imageData;
-      this.selectedImageTitle = `图片标题 ${index + 1}`;
+      this.selectedImageTitle = photo.title; // 使用数据库中的标题
       this.selectedImageDescription = photo.description;
       this.currentIndex = index;
       this.currentPhotoList = this.photosByLocation[location];
@@ -242,13 +248,22 @@ export default {
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* 创建自适应网格 */
   gap: 10px;
+  margin: 20px 0;
+}
+
+.photo-card {
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
 }
 
 .photo-card img {
   width: 100%;
+  height: 100%;
+  object-fit: cover; /* 确保图片填充容器 */
   border-radius: 8px;
   cursor: pointer;
   transition: transform 0.3s;
@@ -257,6 +272,7 @@ export default {
 .photo-card img:hover {
   transform: scale(1.05);
 }
+
 
 .iconfont {
   font-size: 20px;
