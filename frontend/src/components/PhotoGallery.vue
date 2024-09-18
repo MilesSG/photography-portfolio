@@ -63,6 +63,7 @@
         <el-timeline-item
             v-for="(photos, location) in photosByLocation"
             :key="location"
+            :id="`timeline-${location}`"
             placement="top"
         >
           <template #dot>

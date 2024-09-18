@@ -11,13 +11,13 @@
 <script>
 import PhotoGallery from './components/PhotoGallery.vue';
 import CommentSection from './components/CommentSection.vue';
-import WorldMap from './components/WorldMap.vue'; // 导入新的 WorldMap 组件
+import WorldMap from './components/WorldMap.vue';
 
 export default {
   components: {
     PhotoGallery,
     CommentSection,
-    WorldMap, // 注册 WorldMap 组件
+    WorldMap,
   },
 };
 </script>
